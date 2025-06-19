@@ -5,6 +5,7 @@ export const urls = {
     check: () => routeCreator("check"),
   },
   features: {
-    getByFlag: () => routeCreator("getByFlag"),
+    getByFlag: () => routeCreator("flags"),
+    getAll: () => routeCreator("all"),
   },
 };
